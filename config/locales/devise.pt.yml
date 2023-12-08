@@ -10,7 +10,7 @@ pt:
       send_paranoid_instructions: Se o seu endereço de e-mail existir em nosso banco de dados, você receberá um e-mail com instruções sobre como confirmar seu endereço de e-mail em alguns minutos.
     failure:
       already_authenticated: Você já está inscrito.
-      inactive: Sua conta Ainda não esta ativada.
+      inactive: Sua conta Ainda não está ativada.
       invalid: "%{authentication_keys} ou senha inválida."
       last_attempt: Você tem mais uma tentativa antes que sua conta seja bloqueada.
       locked: Sua conta está bloqueada.
