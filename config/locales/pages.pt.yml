@@ -13,7 +13,7 @@ pt:
       title: Você gosta do que fazemos?
     firmware_partitions_calculation:
       end_address: Endereço final
-      flash_size_mb: Tamanho do flash, MB
+      flash_size_mb: Tamanho da memória flash, MB
       mtd_name: Nome do dispositivo MTD
       offset: Deslocamento inicial, dec ou hexadecimal
       partition_name: Nome da partição %{number}
@@ -21,11 +21,11 @@ pt:
       recalculate: Recalcular
       size_hex: Tamanho hexadecimal, bytes
       start_address: Endereço inicial
-      title: Cálculo de partições de firmware
+      title: Cálculo de partições do firmware
     green_life:
       paragraph1: OpenIPC contribui para a sustentabilidade fornecendo principalmente firmware aberto para câmeras IP, engajando-se diretamente no uso eficiente e na reaproveitamento do hardware existente.
       paragraph2: Ao estender a vida útil das câmeras por meio de atualizações e recursos de firmware personalizáveis, o OpenIPC reduz o desperdício eletrônico.
-      paragraph3: Isto alinha-se com os objetivos de sustentabilidade, promovendo a reutilização e reaproveitamento de tecnologia, minimizando o impacto ambiental associado à produção e eliminação de dispositivos eletrónicos.
+      paragraph3: Isto alinha-se com os objetivos de sustentabilidade, promovendo a reutilização e reaproveitamento de tecnologia, minimizando o impacto ambiental associado à produção e eliminação de dispositivos eletrônicos.
       paragraph4: Além disso, o compromisso da OpenIPC com a transparência e o desenvolvimento orientado para a comunidade promove uma abordagem colaborativa à tecnologia, incentivando os utilizadores a envolverem-se ativamente e a contribuírem para o crescimento e a sustentabilidade do projeto.
       title: Vida Verde
     high_resolution_timer:
@@ -40,10 +40,10 @@ pt:
       img_openipc_alt: 'Imagem: logotipo da comunidade OpenIPC'
       paragraph1: OpenIPC é um sistema operacional de código aberto direcionado a câmeras IP com processadores ARM e MIPS de diversos fabricantes, a fim de substituir aquele firmware fechado, opaco, inseguro, muitas vezes abandonado e sem suporte pré-instalado por um fornecedor.
       paragraph2_html: O Firmware OpenIPC vem como arquivos binários pré-compilados para fácil instalação pelo usuário final. Além disso, fornecemos acesso total aos arquivos de origem para desenvolvimento e melhoria adicionais por qualquer programador capaz e disposto a contribuir com o projeto. O código-fonte OpenIPC é lançado sob um dos contratos de licença de código aberto mais simples, <a href="https://opensource.org/licenses/MIT">a Licença MIT</a> , dando aos usuários permissão expressa para reutilizar o código para qualquer finalidade, mesmo como parte de um software proprietário. Pedimos apenas que você educadamente contribua com suas melhorias para nós. Ficaríamos gratos por quaisquer comentários e sugestões.
-      paragraph3_html: OpenIPC Firmware usa <a href="https://buildroot.org/">Buildroot</a> para construir sua distribuição Linux e utiliza streamer <a href="https://github.com/OpenIPC/majestic">Majestic</a> , <a href="https://github.com/OpenIPC/mini">Mini</a> ou <a href="https://github.com/OpenIPC/silicon_research">Venc</a> .
-      paragraph4_html: O código Majestic, embora não seja aberto, oferece desempenho e recursos sem precedentes para uma ampla variedade de hardware. O autor do streamer Majestic está estudando possibilidades de abrir o código-fonte da base de código depois de garantir fundos suficientes para apoiar o desenvolvimento aberto. Você pode <a href="/support-open-source">ajudar</a> a fazer isso acontecer mais cedo.
-      paragraph5: Em primeiro lugar, o OpenIPC Firmware traz liberdade para você. Com OpenIPC em sua câmera você é o mestre de suas transmissões. Você tem acesso total ao sistema e pode controlar o que, onde e como deseja que sua câmera se comporte. Não há backdoors, botnets, malware de mineração de criptografia, keyloggers, sniffers de senha, nada que você possa esperar de um sistema binário fechado sem acesso ao seu código-fonte.
-      paragraph6: Quanto aos recursos de firmware, nos esforçamos para fornecer suporte universal para uma ampla gama de câmeras, portanto, estamos focados primeiro na funcionalidade básica, permitindo que os usuários finais atualizem o firmware de suas câmeras e transmitam vídeo e áudio (quando suportado) sem muito esforço. problema.
+      paragraph3_html: O Firmware OpenIPC usa <a href="https://buildroot.org/">Buildroot</a> para construir sua distribuição Linux e utiliza streamer <a href="https://github.com/OpenIPC/majestic">Majestic</a> , <a href="https://github.com/OpenIPC/mini">Mini</a> ou <a href="https://github.com/OpenIPC/silicon_research">Venc</a> .
+      paragraph4_html: O código Majestic, embora não seja aberto, oferece desempenho e recursos sem precedentes para uma ampla variedade de hardware. O autor do streamer Majestic está estudando possibilidades de abrir o código-fonte depois de garantir fundos suficientes para apoiar o desenvolvimento aberto. Você pode <a href="/support-open-source">ajudar</a> a fazer isso acontecer mais cedo.
+      paragraph5: Em primeiro lugar, o Firmware OpenIPC traz liberdade para você. Com OpenIPC em sua câmera você é o mestre de suas transmissões. Você tem acesso total ao sistema e pode controlar o que, onde e como deseja que sua câmera se comporte. Não há backdoors, botnets, malware de mineração de criptografia, keyloggers, sniffers de senha, nada que você possa esperar de um sistema binário fechado sem acesso ao seu código-fonte.
+      paragraph6: Quanto aos recursos de firmware, nos esforçamos para fornecer suporte universal para uma ampla gama de câmeras, portanto, estamos focados primeiro na funcionalidade básica, permitindo que os usuários finais atualizem o firmware de suas câmeras e transmitam vídeo e áudio (quando suportado) sem muito esforço.
       paragraph7: No entanto, temos algumas partes interessantes. Nosso firmware suporta armazenamento externo em nuvem IPEYE, streaming de vídeo para Youtube e Telegram, usando proxy SOCKS5, configuração de um túnel virtual e muito mais.
       paragraph8: Existem também vários projetos focados em equipamentos especializados, como uma câmera para montagem em drone, para montagem em capacetes de construção, para utilização em ferramentas de topografia, para pesquisas médicas dos órgãos da visão, pesca submarina, etc.
       subtitle1: OpenIPC é um firmware alternativo aberto para sua câmera IP.
@@ -87,7 +87,7 @@ pt:
       raw_pcm: Fluxo de áudio PCM bruto.
       rtsp0: Fluxo principal RTSP (vídeo0).
       rtsp1: Substream RTSP (vídeo1).
-      title: Terminais majestosos
+      title: Terminais Majestic
       ulaw: Fluxo de áudio compactado μ-law.
       video: Vídeo
       webrtc: Transmissão ao vivo WebRTC no navegador da web.
