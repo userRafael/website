@@ -36,7 +36,7 @@ pt:
         server_ip_address_title: quatro campos de 8 bits separados por pontos
         subtitle: Transferências
         title: Guia de instalação
-        title2: Salve seu firmware de estoque!
+        title2: Salve seu firmware de fábrica!
         toolchain: Conjunto de ferramentas OpenIPC
       sigmastar_nand_is_weird:
         paragraph1: A instalação do firmware OpenIPC em um módulo SigmaStar com memória flash NAND requer um procedimento específico que não está incluído neste guia.
@@ -87,7 +87,7 @@ pt:
         continue2: Mantenha o foco e prepare-se para interromper a sequência de inicialização para voltar ao shell do bootloader. Quando estiver no shell do bootloader, remapeie o particionamento da ROM de acordo com o tamanho e tipo do flash.
         info: A imagem completa do firmware consiste em bootloader, kernel e sistema de arquivos raiz, e também é adequada para atualizar o chip de memória usando um programador. Observe que a imagem completa não contém ambiente predefinido. Você ainda precisa adicionar seu próprio endereço MAC, endereço IP e outras configurações.
         link: Baixe a imagem do firmware OpenIPC (%{name})
-        title: Imagem completa do firmware OpenIPC em Flash
+        title: Instale a imagem completa do firmware OpenIPC
       flashing_uboot:
         continue: A câmera inicializará no bootloader recém-atualizado. Mantenha o foco e prepare-se para interromper a sequência de inicialização para voltar ao shell do bootloader.
         info: Baixe o arquivo binário do bootloader e salve-o no diretório raiz do seu servidor TFTP.
@@ -98,10 +98,10 @@ pt:
       success:
         info_html: Abra a interface web da câmera na porta 85 ( <a href=\"http://%{address}:85/\">http://%{address}:85/</a> ) e faça login usando o login <b>root</b> e a senha <b>12345</b> para entrar. ssh ou UART usam o mesmo login e senha acima.
         title: Parabéns! Neste momento, você tem o firmware OpenIPC (%{name}) instalado.
-      title: Firmware OpenIPC piscando
+      title: Instalando o Firmware OpenIPC
     restore:
       info: Se precisar restaurar o firmware original, use o arquivo de backup que você criou usando os comandos acima. Coloque o arquivo de backup no diretório raiz do seu servidor TFTP e execute estes comandos no shell do bootloader.
-      title: Restaurar firmware de estoque da câmera
+      title: Restaurar firmware de fábrica da câmera
     version:
       fpv: FPV
       lite: Leve
@@ -131,7 +131,7 @@ pt:
     home: Lar
     introduction: Introdução
     next: Próximo
-    openwall: Parede aberta
+    openwall: Mural aberto
     partition_calc: Calculadora de partição de firmware
     pause_transitions: Coloque o cursor do mouse sobre um instantâneo para pausar as transições automáticas.
     previous: Anterior
@@ -211,10 +211,10 @@ pt:
       description_8: Grupo para suporte técnico pago
       description_9: Canal de usuários OpenIPC de língua persa
     formatting:
-      bold: Audacioso
+      bold: Negrito
       header: Formatação de mensagens
       hyperlink: Hiperlink
-      italic: itálico
+      italic: Itálico
       monospace: Monoespaçado
       strikeout: Riscado
       text_html: "<p>Você sabia que o Telegram Messenger permite usar formatação para enfatizar partes importantes da mensagem e facilitar a compreensão das informações?</p><p> Selecione um fragmento de texto e pressione uma combinação de teclas:</p>"
@@ -223,4 +223,4 @@ pt:
       header: Tradução de bate-papo
       text_html: <p>Você sabia que o Telegram messenger possui um mecanismo de tradução integrado que permite a leitura de mensagens escritas em idiomas estrangeiros? Os usuários com contas premium podem <a href="https://telegram.org/blog/profile-pics-emoji-translations#translating-entire-chats">traduzir chats inteiros</a> instantaneamente, mas mesmo uma conta normal pode <a href="https://telegram.org/blog/reactions-spoilers-translations#message-translation">traduzir mensagens individuais</a> com o clique de um botão.</p>
   title:
-    openwall: Parede aberta
+    openwall: Mural aberta
